@@ -10,14 +10,14 @@ const SafeArea = styled.SafeAreaView`
   ${StatusBar.currentHeight && `margin-top: ${StatusBar.currentHeight}px`};
 `
 const SearchArea = styled.View`
-  padding: 16px;
-  background-color: green;
+  padding: ${(props) => props.theme.space.md};
+  background-color: ${(props) => props.theme.colors.bg.primary};
   justifyContent: center;
 `
 const List = styled.View`
   flex: 1;
-  padding: 16px;
-  background-color: blue;
+  padding: ${(props) => props.theme.space.md};
+  background-color: ${(props) => props.theme.colors.bg.secondary};
 `
 
 export const RestaurantsScreen = () => {
