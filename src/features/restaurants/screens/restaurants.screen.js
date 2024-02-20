@@ -12,7 +12,7 @@ const SafeArea = styled.SafeAreaView`
 const SearchArea = styled.View`
   padding: ${(props) => props.theme.space.md};
   background-color: ${(props) => props.theme.colors.bg.primary};
-  justifyContent: center;
+  align-content: center;
 `
 const List = styled.View`
   flex: 1;
