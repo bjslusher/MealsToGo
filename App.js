@@ -7,12 +7,13 @@ import {
   Platform,
   StatusBar,
 } from "react-native";
+import { Search } from "./src/components/Searchbar";
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <View style={styles.search}>
-        <Text>Search</Text>
+      <View style={ styles.search }>
+        <Search />
       </View>
       <View style={styles.list}>
         <Text>List</Text>
